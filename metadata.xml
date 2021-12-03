@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Isaac's Keyboard</name>
+    <directory>isaac's keyboard</directory>
+    <id>2660564243</id>
+    <description>Is R Key not enough for you, and you wish you could press all the various keys with an active item instead?
+
+[h1]Introducing, Isaac's Keyboard![/h1]
+This mod introduces 9 brand new keys to the game that all spawn in the secret room:
+
+
+[h1]Esc Key[/h1]
+If player has fewer than 6 hearts, heals them with combination of red and soul hearts and teleports you out of the room
+
+[h1]Tilde Key[/h1]
+Grants a random debug effect for the current room
+
+[h1]Alt Key[/h1]
+Your current floor will become one of its alt variants and alt floors will become one of its normal variants
+
+[h1]Spacebar Key[/h1]
+Teleports you to the I AM ERROR room upon use
+
+[h1]Backspace Key[/h1]
+Opens the door you last came from
+
+[h1]Q Key[/h1]
+Functions as a 3 in one Placebo, Blank Card, and Clear Rune. Will also use your pocket active for free
+
+[h1]E Key[/h1]
+Spawns a Gigabomb
+
+[h1]C Key[/h1]
+Teleports you to a large Library with 7 books
+
+[h1]Caps Key[/h1]
+Makes Isaac large for the current room, allows Isaac to walk over obstacles to destroy them, +7 Damage up, +3 Range up
+
+[h1]Enter Key[/h1]
+Attempts to open the Boss Rush door. Ignores in-game time
+
+[h1]Shift Key[/h1]
+If player is normal, they will become tainted. Tainted will become normal
+
+[b]Includes full EID, Encyclopedia, and Mod Config Menu support[/b]
+
+Special thanks to blind for making the item sprites, Kotry for providing Spanish translations, and Sillst for making the new thumbnail
+
+Please report any bugs you find in the discussion :)</description>
+    <version>1.6</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Items"/>
+    <tag id="Active Items"/>
+    <tag id="Graphics"/>
+    <tag id="Sound Effects"/>
+</metadata>
