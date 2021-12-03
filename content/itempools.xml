@@ -1,0 +1,21 @@
+<ItemPools>
+    <Pool Name="secret">
+		<Item Name="Esc Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Tilde Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Alt Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Spacebar Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Backspace Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Q Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="E Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="C Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Caps Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Enter Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Shift Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+	<Pool Name="greed_shop">
+		<Item Name="Esc Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+	</Pool>
+	<Pool Name="greed_devil">
+		<Item Name="Esc Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+	</Pool>
+</ItemPools>
