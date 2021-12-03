@@ -1,0 +1,13 @@
+<items gfxroot="gfx/items/" version="1">
+	<active name="Esc Key" description="I gotta get outta here!" gfx="esc.png" shopprice="99" devilprice="2" quality="3" />
+	<active name="Tilde Key" description="Dirty hacker" gfx="~.png" maxcharges="12" quality="3" />
+	<active name="Alt Key" description="Reality" gfx="alt.png" maxcharges="1" chargetype="special" quality="4" />
+	<active name="Spacebar Key" description="Feedback loop" gfx="spacebar.png" maxcharges="12" quality="4" />
+	<active name="Backspace Key" description="No, go back!" gfx="backspace.png" maxcharges="1" quality="1" />
+	<active name="Q Key" description="Plagiarism" gfx="q.png" maxcharges="12" quality="4" />
+	<active name="E Key" description="Quite explosive" gfx="e.png" maxcharges="6" quality="3" />
+	<active name="C Key" description="Encyclopedia Support" gfx="c.png" maxcharges="6" initcharge="0" quality="3" />
+	<active name="Caps Key" description="Locked in size" gfx="caps.png" maxcharges="6" quality="3" />
+	<active name="Enter Key" description="Meet no boundaries" gfx="enter.png" maxcharges="12" initcharge="0" quality="3" />
+	<active name="Shift Key" description="Hallucination" gfx="shift.png" maxcharges="12" quality="4" />
+</items>
