@@ -1,4 +1,4 @@
-# Isaacs Keyboard
+# Isaac's Keyboard
 A mod for The Binding of Isaac: Repentance that implements 11 new active items.
 
 
