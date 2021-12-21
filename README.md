@@ -8,9 +8,10 @@ A mod for The Binding of Isaac: Repentance that implements 11 new active items.
 - EID Suppport
 - Encyclopedia Support
 
-### Supported Languages
-- **English** (Default)
-- **Spanish** ((by Kotry) With EID)
+### Supported Languages (With EID)
+- **English**
+- **Spanish** (by Kotry)
+- **Russian** (by BrakeDude)
 
 
 ## Configuration
@@ -21,7 +22,8 @@ Simply install &quot;[Mod Config Menu](https://steamcommunity.com/sharedfiles/fi
 
 
 ## Special Thanks to
-- Kotry for creating the Spanish translations
+- Kotry for providing the Spanish translations
+- BrakeDude for providing the Russian translations
 - Blind, the Bound Demon for creating the item sprites
 - Sillst for creating the mod's thumbnail
 - Everyone on the Workshop page for suggesting ideas
