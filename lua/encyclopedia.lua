@@ -135,26 +135,31 @@ local Wiki = {
 }
 
 Encyclopedia.AddItem({
+	ModName = "Isaac's Keyboard",
 	Class = "Isaac's Keyboard",
 	ID = CollectibleType.COLLECTIBLE_ESC_KEY,
 	WikiDesc = Wiki.EscKey,
 	Pools = {
 		Encyclopedia.ItemPools.POOL_SECRET,
 		Encyclopedia.ItemPools.POOL_GREED_SHOP,
-		Encyclopedia.ItemPools.POOL_GREED_DEVIL
+		Encyclopedia.ItemPools.POOL_GREED_DEVIL,
+		Encyclopedia.ItemPools.POOL_GREED_SECRET,
 	},
 })
 
 Encyclopedia.AddItem({
+	ModName = "Isaac's Keyboard",
 	Class = "Isaac's Keyboard",
 	ID = CollectibleType.COLLECTIBLE_TILDE_KEY,
 	WikiDesc = Wiki.TildeKey,
 	Pools = {
-		Encyclopedia.ItemPools.POOL_SECRET
+		Encyclopedia.ItemPools.POOL_SECRET,
+		Encyclopedia.ItemPools.POOL_GREED_SECRET,
 	},
 })
 
 Encyclopedia.AddItem({
+	ModName = "Isaac's Keyboard",
 	Class = "Isaac's Keyboard",
 	ID = CollectibleType.COLLECTIBLE_ALT_KEY,
 	WikiDesc = Wiki.AltKey,
@@ -165,6 +170,7 @@ Encyclopedia.AddItem({
 
 
 Encyclopedia.AddItem({
+	ModName = "Isaac's Keyboard",
 	Class = "Isaac's Keyboard",
 	ID = CollectibleType.COLLECTIBLE_SPACEBAR_KEY,
 	WikiDesc = Wiki.SpacebarKey,
@@ -174,33 +180,40 @@ Encyclopedia.AddItem({
 })
 
 Encyclopedia.AddItem({
+	ModName = "Isaac's Keyboard",
 	Class = "Isaac's Keyboard",
 	ID = CollectibleType.COLLECTIBLE_BACKSPACE_KEY,
 	WikiDesc = Wiki.BackspaceKey,
 	Pools = {
 		Encyclopedia.ItemPools.POOL_SECRET,
+		Encyclopedia.ItemPools.POOL_GREED_SECRET,
 	},
 })
 
 Encyclopedia.AddItem({
+	ModName = "Isaac's Keyboard",
 	Class = "Isaac's Keyboard",
 	ID = CollectibleType.COLLECTIBLE_Q_KEY,
 	WikiDesc = Wiki.QKey,
 	Pools = {
 		Encyclopedia.ItemPools.POOL_SECRET,
+		Encyclopedia.ItemPools.POOL_GREED_SECRET,
 	},
 })
 
 Encyclopedia.AddItem({
+	ModName = "Isaac's Keyboard",
 	Class = "Isaac's Keyboard",
 	ID = CollectibleType.COLLECTIBLE_E_KEY,
 	WikiDesc = Wiki.EKey,
 	Pools = {
 		Encyclopedia.ItemPools.POOL_SECRET,
+		Encyclopedia.ItemPools.POOL_GREED_SECRET,
 	},
 })
 
 Encyclopedia.AddItem({
+	ModName = "Isaac's Keyboard",
 	Class = "Isaac's Keyboard",
 	ID = CollectibleType.COLLECTIBLE_C_KEY,
 	WikiDesc = Wiki.CKey,
@@ -210,15 +223,18 @@ Encyclopedia.AddItem({
 })
 
 Encyclopedia.AddItem({
+	ModName = "Isaac's Keyboard",
 	Class = "Isaac's Keyboard",
 	ID = CollectibleType.COLLECTIBLE_CAPS_KEY,
 	WikiDesc = Wiki.CapsKey,
 	Pools = {
 		Encyclopedia.ItemPools.POOL_SECRET,
+		Encyclopedia.ItemPools.POOL_GREED_SECRET,
 	},
 })
 
 Encyclopedia.AddItem({
+	ModName = "Isaac's Keyboard",
 	Class = "Isaac's Keyboard",
 	ID = CollectibleType.COLLECTIBLE_ENTER_KEY,
 	WikiDesc = Wiki.EnterKey,
@@ -228,10 +244,12 @@ Encyclopedia.AddItem({
 })
 
 Encyclopedia.AddItem({
+	ModName = "Isaac's Keyboard",
 	Class = "Isaac's Keyboard",
 	ID = CollectibleType.COLLECTIBLE_SHIFT_KEY,
 	WikiDesc = Wiki.ShiftKey,
 	Pools = {
 		Encyclopedia.ItemPools.POOL_SECRET,
+		Encyclopedia.ItemPools.POOL_GREED_SECRET,
 	},
 })
