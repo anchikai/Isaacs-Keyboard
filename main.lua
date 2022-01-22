@@ -16,21 +16,28 @@ CollectibleType.COLLECTIBLE_CAPS_KEY = Isaac.GetItemIdByName("Caps Key")
 CollectibleType.COLLECTIBLE_ENTER_KEY = Isaac.GetItemIdByName("Enter Key")
 CollectibleType.COLLECTIBLE_SHIFT_KEY = Isaac.GetItemIdByName("Shift Key")
 
+mod:AddCallback(ModCallbacks.MC_POST_RENDER, function(_, isContinue)
+	if not further then
+		include("lua/items/Esc.lua")
+		include("lua/items/Tilde.lua")
+		include("lua/items/Alt.lua")
+		include("lua/items/Spacebar.lua")
+		include("lua/items/Backspace.lua")
+		include("lua/items/Q.lua")
+		include("lua/items/E.lua")
+		include("lua/items/C.lua")
+		include("lua/items/Caps.lua")
+		include("lua/items/Enter.lua")
+		include("lua/items/Shift.lua")
+	elseif not AstrologicalSigns then
+		Isaac.RenderText("Furtherance is installed! Please disable Isaac's Keyboard.", 66, 240, 1, 1, 1, 255)
+	end
+end
+)
+
 function mod:playFailSound()
 	SFXManager():Play(_Keyboard.sound)
 end
-
-include("lua/items/Esc.lua")
-include("lua/items/Tilde.lua")
-include("lua/items/Alt.lua")
-include("lua/items/Spacebar.lua")
-include("lua/items/Backspace.lua")
-include("lua/items/Q.lua")
-include("lua/items/E.lua")
-include("lua/items/C.lua")
-include("lua/items/Caps.lua")
-include("lua/items/Enter.lua")
-include("lua/items/Shift.lua")
 
 --prevent shaders crash
 if Isaac.GetFrameCount() > 0 then
