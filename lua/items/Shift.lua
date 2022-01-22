@@ -1,6 +1,6 @@
 local mod = _Keyboard
 
-function mod:UseShift(boi, _, player)
+function mod:UseShift(_, _, player)
 	player:AnimateCollectible(CollectibleType.COLLECTIBLE_SHIFT_KEY, "UseItem", "PlayerPickup")
 	Game():ShowHallucination(30, BackdropType.NUM_BACKDROPS)
 	local plty = player:GetPlayerType()
@@ -92,6 +92,20 @@ function mod:UseShift(boi, _, player)
 	-- Esau
 	elseif plty == PlayerType.PLAYER_ESAU then
 		print("This is currently broken, give shift to Jacob instead!")
+	-- Leah
+	elseif plty == Isaac.GetPlayerTypeByName("Leah", false) then
+		player:ChangePlayerType(Isaac.GetPlayerTypeByName("Leah", true))
+		player:SetPocketActiveItem(CollectibleType.COLLECTIBLE_HEART_RENOVATOR, SLOT_POCKET, false)
+	elseif plty == Isaac.GetPlayerTypeByName("Leah", true) then
+		player:ChangePlayerType(Isaac.GetPlayerTypeByName("Leah", false))
+	end
+	if SaltLady or Compliance then
+		if plty == Isaac.GetPlayerTypeByName("Edith", false) then
+			player:ChangePlayerType(Isaac.GetPlayerTypeByName("Edith", true))
+			player:SetPocketActiveItem(CollectibleType.COLLECTIBLE_THE_CHISEL, SLOT_POCKET, false)
+		elseif plty == Isaac.GetPlayerTypeByName("Edith", true) then
+			player:ChangePlayerType(Isaac.GetPlayerTypeByName("Edith", false))
+		end
 	end
 end
 

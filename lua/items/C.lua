@@ -1,4 +1,5 @@
 local mod = _Keyboard
+local game = Game()
 
 function mod:UseC(boi, rng, player, slot, data)
 	local data = player:GetData()
@@ -20,13 +21,13 @@ function mod:CKeyTeleported(boi, rng, player, slot, data)
 		
 		if data.Teleported == true then
 		--spawn item pedastols 
-		Game():Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetCenterPos(), Vector(0, 0), nil, 0, room:GetSpawnSeed())
-		Game():Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetGridPosition(8, 4), Vector(0, 0), nil, 0, room:GetSpawnSeed())
-		Game():Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetGridPosition(10, 4), Vector(0, 0), nil, 0, room:GetSpawnSeed())
-		Game():Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetGridPosition(12, 4), Vector(0, 0), nil, 0, room:GetSpawnSeed())
-		Game():Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetGridPosition(15, 4), Vector(0, 0), nil, 0, room:GetSpawnSeed())
-		Game():Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetGridPosition(17, 4), Vector(0, 0), nil, 0, room:GetSpawnSeed())
-		Game():Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetGridPosition(19, 4), Vector(0, 0), nil, 0, room:GetSpawnSeed())
+		game:Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetCenterPos(), Vector(0, 0), nil, 0, room:GetSpawnSeed())
+		game:Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetGridPosition(120), Vector(0, 0), nil, 0, room:GetSpawnSeed())
+		game:Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetGridPosition(122, 4), Vector(0, 0), nil, 0, room:GetSpawnSeed())
+		game:Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetGridPosition(124, 4), Vector(0, 0), nil, 0, room:GetSpawnSeed())
+		game:Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetGridPosition(127, 4), Vector(0, 0), nil, 0, room:GetSpawnSeed())
+		game:Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetGridPosition(129, 4), Vector(0, 0), nil, 0, room:GetSpawnSeed())
+		game:Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, room:GetGridPosition(131, 4), Vector(0, 0), nil, 0, room:GetSpawnSeed())
 		data.Teleported = false
 		end
 	end
